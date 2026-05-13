@@ -18,5 +18,12 @@ public class StringPractie {
         if(c1==c2) System.out.printf("1,地址相等");
         if(hashCode2==hashCode1) System.out.printf("2,hashcode相等");
         if(c1.equals(c2)) System.out.printf("");
+        String c4 = "str";
+        String c5 = "ing";
+        String c6 = c4+c5;
+        String c7 = "str"+"ing";
+        System.out.println("");
+        System.out.println(c6==c7);
+        System.out.println(c6.equals(c7));
     }
 }
